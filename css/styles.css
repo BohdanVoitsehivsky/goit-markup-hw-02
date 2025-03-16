@@ -11,18 +11,28 @@ li {
   list-style: none;
 }
 
-.header-logo {
+.logo span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: #4d5ae5;}
+  .logostudio {
   color: #2e2f42;
-  font-family: "Raleway", sans-serif;
 }
-.header-logo-web {
-  color: #4d5ae5;
-}
+
 
 .nav-list-item {
   font-weight: 500;
@@ -31,7 +41,10 @@ li {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list-item:hover .nav-list-item:focus {
+.nav-list-item:hover{
+  color: #404bbf;
+} 
+.nav-list-item:focus {
   color: #404bbf;
 }
 .client-contact {
@@ -40,8 +53,12 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal
 }
-.client-contact:hover .client-contact:focus {
+.client-contact:hover{
+  color: #404bbf;
+} 
+.client-contact:focus {
   color: #404bbf;
 }
 .section-title {
@@ -97,6 +114,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize
   color: #2e2f42;
 }
 .team-members {
@@ -121,9 +139,10 @@ li {
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize
   color: #2e2f42;
 }
 .portfolio-card-title {
